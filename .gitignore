@@ -1,1 +1,26 @@
-.terraform\
+# Ignore .terraform directory (stores Terraform state and provider plugins)
+.terraform/
+
+# Terraform state and backup files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform variables and configuration files
+terraform.tfvars
+
+# Ignore lock file (optional, but often ignored in version control)
+.terraform.lock.hcl
+
+# IDE/editor specific files (add others as needed)
+.vscode/
+*.swp
+*.swo
+.idea/
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+
+# Downloads directory files
+downloads/
+
